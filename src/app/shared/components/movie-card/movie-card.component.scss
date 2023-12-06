@@ -1,0 +1,43 @@
+@import './../../../../scss/colors.scss';
+
+.card {
+    color: $white;
+    cursor: pointer;
+    width: 225px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 $shadow;
+    position: relative;
+
+    .card__picture {
+        width: 100%;
+
+        img {
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .card__info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        overflow-wrap: break-word;
+        justify-content: end;
+        bottom: 0px;
+        padding: 10px;
+        height: calc(100% - 20px);
+        width: calc(100% - 20px);
+        background-color: $shadow;
+
+        h2 {
+            margin-bottom: 0px;
+        }
+
+        span {
+            margin-bottom: 0px;
+        }
+    }
+}

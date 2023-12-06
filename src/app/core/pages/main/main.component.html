@@ -1,1 +1,5 @@
-<p>main works!</p>
+<h1>Movie List</h1>
+<p>Select a movie below to see futher details.</p>
+<section class="list">
+    <app-movie-card *ngFor="let item of movieCardList" [context]="item"></app-movie-card>
+</section>

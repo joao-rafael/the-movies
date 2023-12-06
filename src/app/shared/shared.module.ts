@@ -12,6 +12,10 @@ import { ButtonComponent } from './components/button/button.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    MovieCardComponent, 
+    ButtonComponent
   ]
 })
 export class SharedModule { }
