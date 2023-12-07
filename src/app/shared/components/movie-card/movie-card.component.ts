@@ -28,8 +28,8 @@ export class MovieCardComponent {
   @Input() context: IMovieCard = {
     title: 'Somewhere over the rainbow',
     imgAssetUrl: 'otherplace',
-    isOnWatchList: false,
-    route: '/teste'
+    route: '',
+    isOnWatchList: false
   }
 
   isMouseOver: boolean = false;
@@ -39,6 +39,6 @@ export class MovieCardComponent {
   }
 
   onClick() {
-    this.router.navigateByUrl('/details');
+    this.router.navigate(['/details', this.context.route]);
   }
 }

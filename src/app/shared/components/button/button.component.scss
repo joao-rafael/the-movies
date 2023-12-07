@@ -1,0 +1,22 @@
+@import './../../../../scss/colors.scss';
+
+.button {
+    border-radius: 7px;
+    padding: 15px 15px;
+    border: none;
+    width: 200px;
+
+    &.button--primary {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+        color: $dark;
+        background-color: $yellow;
+
+        &:hover {
+            background-color: $yellow-secondary;
+            transition: .2s ease;
+        }
+    }
+}

@@ -11,7 +11,7 @@ export const movieData: IMovieData[] = [
       trailerLink: 'https://www.youtube.com/watch?v=LdOM0x0XDMo',
       imgAssetUrl: 'assets/images/tenet.png',
       isOnWatchList: false,
-      route: '/tenet'
+      route: 'tenet'
     },
     {
       title: 'Spider-Man: Into the Spider-Verse',
@@ -23,7 +23,7 @@ export const movieData: IMovieData[] = [
       trailerLink: 'https://www.youtube.com/watch?v=tg52up16eq0',
       imgAssetUrl: 'assets/images/spiderman.png',
       isOnWatchList: false,
-      route: '/spider'
+      route: 'spider'
     },
     {
       title: 'Knives Out',
@@ -35,7 +35,7 @@ export const movieData: IMovieData[] = [
       trailerLink: 'https://www.youtube.com/watch?v=qGqiHJTsRkQ',
       imgAssetUrl: 'assets/images/knives-out.png',
       isOnWatchList: false,
-      route: '/knives'
+      route: 'knives'
     },
     {
       title: 'Guardians of the Galaxy',
@@ -47,7 +47,7 @@ export const movieData: IMovieData[] = [
       trailerLink: 'https://www.youtube.com/watch?v=d96cjJhvlMA',
       imgAssetUrl: 'assets/images/guardians.png',
       isOnWatchList: false,
-      route: '/guardians'
+      route: 'guardians'
     },
     {
       title: 'Avengers: Age of Ultron',
@@ -59,6 +59,6 @@ export const movieData: IMovieData[] = [
       trailerLink: 'https://www.youtube.com/watch?v=tmeOjFno6Do',
       imgAssetUrl: 'assets/images/avengers.png',
       isOnWatchList: false,
-      route: '/avengers'
+      route: 'avengers'
     }
   ];
