@@ -1,4 +1,11 @@
+@import './../scss/colors.scss';
+
+.header {
+    background-color: $black;
+    padding: 5px 100px;
+}
+
 .container {
-    min-height: calc(100vh - 320px);
-    padding: 160px;
+    min-height: calc(100vh - 420px);
+    padding: 100px;
 }
